@@ -106,4 +106,4 @@ This laboratory demonstrates thread creation, multithreading, thread coordinatio
    Not at the exact same physical instant. A single-core CPU can only do one instruction at a time, so it switches back and forth between threads very quickly to make them *appear* simultaneous (concurrency).
 8. **How does the operating system manage kernel-level threads?**
    The OS keeps track of each thread's status (ready, running, or waiting) and uses a scheduler to assign CPU time slices to each thread across available processor cores.
-```[cite: 1]
+```
